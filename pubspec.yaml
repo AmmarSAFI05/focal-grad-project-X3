@@ -23,7 +23,7 @@ flutter:
   assets:
     - assets/icons/black_icons/
     - assets/icons/white_icons/
-    - assets/images
+    - assets/images/
 
   fonts:
      - family: Inter
