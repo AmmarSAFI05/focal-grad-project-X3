@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'view/landing_screen/view/landing_page.dart';
-
+import '../view/landing_screen/view/landing_page.dart';
 import '../core/constant/app_sizes.dart';
 
 void main() {
@@ -13,8 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     AppSize.init(context);
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      locale: const Locale("ar"),
       title: 'Flutter Demo',
       theme: ThemeData(
+        fontFamily: 'Tajawal',
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),

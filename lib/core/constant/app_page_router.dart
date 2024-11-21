@@ -17,17 +17,17 @@ class PageRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case landingPage:
-        return MaterialPageRoute(builder: (context) => LandingPage());
+        return MaterialPageRoute(builder: (context) => const LandingPage());
       case loginPage:
-        return MaterialPageRoute(builder: (context) => LoginPage());
+        return MaterialPageRoute(builder: (context) => const LoginPage());
       case oneCoursePage:
-        return MaterialPageRoute(builder: (context) => OneCoursePage());
+        return MaterialPageRoute(builder: (context) => const OneCoursePage());
       case twoCoursesPage:
-        return MaterialPageRoute(builder: (context) => TwoCoursesPage());
+        return MaterialPageRoute(builder: (context) => const TwoCoursesPage());
       case searchPage:
-        return MaterialPageRoute(builder: (context) => SearchPage());
+        return MaterialPageRoute(builder: (context) => const SearchPage());
       case videoPreviewPage:
-        return MaterialPageRoute(builder: (context) => VideoPreviewPage());
+        return MaterialPageRoute(builder: (context) => const VideoPreviewPage());
       default:
         return MaterialPageRoute(
           builder: (context) => Scaffold(

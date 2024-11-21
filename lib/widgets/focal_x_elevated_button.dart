@@ -53,7 +53,7 @@ class _FocalXElevatedButtonState extends State<FocalXElevatedButton> {
             ),
           ),
         ),
-        child: widget.child??null
+        child: widget.child
       )
     );
   }

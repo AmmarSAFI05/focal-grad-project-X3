@@ -5,7 +5,7 @@ class AppTextStyles {
 
   // Inter //
 
-  static TextStyle Inter500(double size,Color color) => TextStyle(
+  static TextStyle inter500(double size,Color color) => TextStyle(
       fontSize: size,
       color: color,
       fontWeight: AppFontWeight.med,
@@ -14,31 +14,31 @@ class AppTextStyles {
 
 // Montserrat //
 
-static TextStyle Montserrat300(double size,Color color) => TextStyle(
+static TextStyle montserrat300(double size,Color color) => TextStyle(
     fontSize: size,
     color: color,
     fontWeight: AppFontWeight.thin,
     fontFamily: 'Montserrat'
 );
-static TextStyle Montserrat400(double size,Color color) => TextStyle(
+static TextStyle montserrat400(double size,Color color) => TextStyle(
   fontSize: size,
   color: color,
   fontWeight: AppFontWeight.normal,
   fontFamily: 'Montserrat'
 );
-static TextStyle Montserrat500(double size,Color color) => TextStyle(
+static TextStyle montserrat500(double size,Color color) => TextStyle(
     fontSize: size,
     color: color,
     fontWeight: AppFontWeight.med,
     fontFamily: 'Montserrat'
 );
-static TextStyle Montserrat600(double size,Color color) => TextStyle(
+static TextStyle montserrat600(double size,Color color) => TextStyle(
     fontSize: size,
     color: color,
     fontWeight: AppFontWeight.bold,
     fontFamily: 'Montserrat'
 );
-static TextStyle Montserrat700(double size,Color color) => TextStyle(
+static TextStyle montserrat700(double size,Color color) => TextStyle(
   fontSize: size,
   color: color,
   fontWeight: AppFontWeight.xBold,
@@ -47,25 +47,25 @@ static TextStyle Montserrat700(double size,Color color) => TextStyle(
 
 // Tajawal //
 
-  static TextStyle Tajawal300(double size,Color color) => TextStyle(
+  static TextStyle tajawal300(double size,Color color) => TextStyle(
       fontSize: size,
       color: color,
       fontWeight: AppFontWeight.thin,
       fontFamily: 'Tajawal'
   );
-  static TextStyle Tajawal400(double size,Color color) => TextStyle(
+  static TextStyle tajawal400(double size,Color color) => TextStyle(
       fontSize: size,
       color: color,
       fontWeight: AppFontWeight.normal,
       fontFamily: 'Tajawal'
   );
-  static TextStyle Tajawal500(double size,Color color) => TextStyle(
+  static TextStyle tajawal500(double size,Color color) => TextStyle(
       fontSize: size,
       color: color,
       fontWeight: AppFontWeight.med,
       fontFamily: 'Tajawal'
   );
-  static TextStyle Tajawal700(double size,Color color) => TextStyle(
+  static TextStyle tajawal700(double size,Color color) => TextStyle(
       fontSize: size,
       color: color,
       fontWeight: AppFontWeight.xBold,
