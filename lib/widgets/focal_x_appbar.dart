@@ -10,17 +10,22 @@ class FocalXAppBar extends StatelessWidget implements PreferredSizeWidget {
   final Color backgroundColor;
   const FocalXAppBar({
     super.key,
-    required this.text, this.actions, this.iconTheme, required this.style, required this.backgroundColor, required this.leading,
+    required this.text,
+    this.actions,
+    this.iconTheme,
+    required this.style,
+    required this.backgroundColor,
+    required this.leading,
   });
 
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      toolbarHeight: AppSize.appBarHeight()*0.8,
-      iconTheme: iconTheme,
-      centerTitle: true,
-      elevation: 0,
-      actions: actions,
+        toolbarHeight: AppSize.appBarHeight() * 0.8,
+        iconTheme: iconTheme,
+        centerTitle: true,
+        elevation: 0,
+        actions: actions,
         backgroundColor: backgroundColor,
         leading: leading,
         title: Center(

@@ -9,6 +9,7 @@ class AppImages{
   static const dribble = "assets/icons/black_icons/dribble.png";
   static const github = "assets/icons/black_icons/github.png";
   static const copyright = "assets/icons/black_icons/copyright.png";
+  static const focalXIcon = "assets/icons/black_icons/focal_x.png";
   // White Icons //
   static const behanceW = "assets/icons/white_icons/behance.png";
   static const facebookW = "assets/icons/white_icons/facebook.png";
