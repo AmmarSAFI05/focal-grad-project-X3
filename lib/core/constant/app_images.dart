@@ -10,6 +10,7 @@ class AppImages{
   static const github = "assets/icons/black_icons/github.png";
   static const copyright = "assets/icons/black_icons/copyright.png";
   static const focalXIcon = "assets/icons/black_icons/focal_x.png";
+  static const drawerIcon = "assets/icons/black_icons/drawer_icon.png";
   // White Icons //
   static const behanceW = "assets/icons/white_icons/behance.png";
   static const facebookW = "assets/icons/white_icons/facebook.png";
