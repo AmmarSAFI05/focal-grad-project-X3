@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'app_fonts.dart';
 
 class AppTextStyles {
-
   // Inter //
 
   static TextStyle inter500(double size,Color color) => TextStyle(
